@@ -9,13 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-For inputs that give a constant voltage from switches feed into each of the four inputs. Through logic gates, the circuit determines which segments should be on and which should be off. 
-Segments that should be on hvae a high signal on their output line that can connect to its correspoding pin on a 7 segment display.
+For inputs that give a constant voltage from switches feed into each of the four inputs. Through logic gates, the circuit determines which segments should be on and which should be off. Segments that should be on hvae a high signal on their output line that can connect to its correspoding pin on a 7 segment display.
 
 ## How to test
 
-Connect 4 switches into each of the inputs. Counting up from 0 to 9 in binary (using the switches where input_A is the 8 place and input_D is the 1 place in binary), the 7 segment display should display the
-corresponding digital number. Above 9 (10-15) the decoder 'breaks' as it shows nothing useful (some other decoders display consistent signals above 10).
+Connect 4 switches into each of the inputs. Counting up from 0 to 9 in binary (using the switches where input_A is the 8 place and input_D is the 1 place in binary), the 7 segment display should display the corresponding digital number. Above 9 (10-15) the decoder 'breaks' as it shows nothing useful (some other decoders display consistent signals above 10).
 
 ## External hardware
 
